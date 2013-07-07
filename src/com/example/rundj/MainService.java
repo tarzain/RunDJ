@@ -14,7 +14,6 @@ import android.media.MediaPlayer;
 import android.media.MediaPlayer.OnErrorListener;
 import android.os.IBinder;
 import android.util.Log;
-import com.example.rundj.MusicService.ServiceBinder;
 
 public class MainService extends Service implements SensorEventListener {
 	Sensor mAccelerometer = null;
